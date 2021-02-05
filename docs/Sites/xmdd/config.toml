@@ -1,4 +1,4 @@
-baseURL = "http://blog.xmdd.com/"
+baseURL = "https://yangzi7298.github.io/xmddzhang.github.io/"
 languageCode = "en-us"
 title = "HUGO Tips"
 theme = "ananke"
