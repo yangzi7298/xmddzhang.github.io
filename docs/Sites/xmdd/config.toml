@@ -1,0 +1,4 @@
+baseURL = "http://blog.xmdd.com/"
+languageCode = "en-us"
+title = "HUGO Tips"
+theme = "ananke"
