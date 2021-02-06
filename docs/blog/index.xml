@@ -6,20 +6,18 @@
     <description>Recent content in Blogs on Xmdd&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 05 Feb 2021 23:40:14 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 06 Feb 2021 13:40:14 +0800</lastBuildDate>
     
 	<atom:link href="https://yangzi7298.github.io/xmddzhang.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>How to build HUGO website</title>
+      <title>How to Build HUGO Website?</title>
       <link>https://yangzi7298.github.io/xmddzhang.github.io/blog/howtobuildhugowebsite/</link>
-      <pubDate>Fri, 05 Feb 2021 23:40:14 +0800</pubDate>
+      <pubDate>Sat, 06 Feb 2021 13:40:14 +0800</pubDate>
       
       <guid>https://yangzi7298.github.io/xmddzhang.github.io/blog/howtobuildhugowebsite/</guid>
-      <description>Prerequisites  You have Git 2.8 or greater installed on your machine. You have a GitHub account. The local network is smooth.  Create a Hugo site Step 1: Install Hugo brew install hugo # or port install hugo To verify your new install:
-hugo version Step 2: Create a New Site hugo new site yourname The above will create a new Hugo site in a folder named &amp;lsquo;yourname&amp;rsquo;.
-Step 3: Add a Theme See themes.</description>
+      <description>Hugo is a general-purpose website framework. Technically speaking, Hugo is a static site generator. Unlike systems that dynamically build a page with each visitor request, Hugo builds pages when you create or update your content. Deploy Hugo as a GitHub Pages project or personal/organizational site and automate the whole process with a simple shell script. GitHub provides free and fast static hosting over SSL for personal, organization, or project pages directly from a GitHub repository via its GitHub Pages service.</description>
     </item>
     
   </channel>

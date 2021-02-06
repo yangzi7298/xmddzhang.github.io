@@ -4,11 +4,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
-    <title>How to build HUGO website | Xmdd&#39;s Blog</title>
+    <title>How to Build HUGO Website? | Xmdd&#39;s Blog</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="Prerequisites  You have Git 2.8 or greater installed on your machine. You have a GitHub account. The local network is smooth.  Create a Hugo site Step 1: Install Hugo brew install hugo # or port install hugo To verify your new install:
-hugo version Step 2: Create a New Site hugo new site yourname The above will create a new Hugo site in a folder named &lsquo;yourname&rsquo;.
-Step 3: Add a Theme See themes.">
+    <meta name="description" content="Hugo is a general-purpose website framework. Technically speaking, Hugo is a static site generator. Unlike systems that dynamically build a page with each visitor request, Hugo builds pages when you create or update your content. Deploy Hugo as a GitHub Pages project or personal/organizational site and automate the whole process with a simple shell script. GitHub provides free and fast static hosting over SSL for personal, organization, or project pages directly from a GitHub repository via its GitHub Pages service.">
     <meta name="generator" content="Hugo 0.63.2" />
     
     
@@ -32,29 +30,23 @@ Step 3: Add a Theme See themes.">
 
     
     
-    <meta property="og:title" content="How to build HUGO website" />
-<meta property="og:description" content="Prerequisites  You have Git 2.8 or greater installed on your machine. You have a GitHub account. The local network is smooth.  Create a Hugo site Step 1: Install Hugo brew install hugo # or port install hugo To verify your new install:
-hugo version Step 2: Create a New Site hugo new site yourname The above will create a new Hugo site in a folder named &lsquo;yourname&rsquo;.
-Step 3: Add a Theme See themes." />
+    <meta property="og:title" content="How to Build HUGO Website?" />
+<meta property="og:description" content="Hugo is a general-purpose website framework. Technically speaking, Hugo is a static site generator. Unlike systems that dynamically build a page with each visitor request, Hugo builds pages when you create or update your content. Deploy Hugo as a GitHub Pages project or personal/organizational site and automate the whole process with a simple shell script. GitHub provides free and fast static hosting over SSL for personal, organization, or project pages directly from a GitHub repository via its GitHub Pages service." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://yangzi7298.github.io/xmddzhang.github.io/blog/howtobuildhugowebsite/" />
-<meta property="article:published_time" content="2021-02-05T23:40:14+08:00" />
-<meta property="article:modified_time" content="2021-02-05T23:40:14+08:00" />
-<meta itemprop="name" content="How to build HUGO website">
-<meta itemprop="description" content="Prerequisites  You have Git 2.8 or greater installed on your machine. You have a GitHub account. The local network is smooth.  Create a Hugo site Step 1: Install Hugo brew install hugo # or port install hugo To verify your new install:
-hugo version Step 2: Create a New Site hugo new site yourname The above will create a new Hugo site in a folder named &lsquo;yourname&rsquo;.
-Step 3: Add a Theme See themes.">
-<meta itemprop="datePublished" content="2021-02-05T23:40:14&#43;08:00" />
-<meta itemprop="dateModified" content="2021-02-05T23:40:14&#43;08:00" />
-<meta itemprop="wordCount" content="1043">
+<meta property="article:published_time" content="2021-02-06T13:40:14+08:00" />
+<meta property="article:modified_time" content="2021-02-06T13:40:14+08:00" />
+<meta itemprop="name" content="How to Build HUGO Website?">
+<meta itemprop="description" content="Hugo is a general-purpose website framework. Technically speaking, Hugo is a static site generator. Unlike systems that dynamically build a page with each visitor request, Hugo builds pages when you create or update your content. Deploy Hugo as a GitHub Pages project or personal/organizational site and automate the whole process with a simple shell script. GitHub provides free and fast static hosting over SSL for personal, organization, or project pages directly from a GitHub repository via its GitHub Pages service.">
+<meta itemprop="datePublished" content="2021-02-06T13:40:14&#43;08:00" />
+<meta itemprop="dateModified" content="2021-02-06T13:40:14&#43;08:00" />
+<meta itemprop="wordCount" content="1338">
 
 
 
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="How to build HUGO website"/>
-<meta name="twitter:description" content="Prerequisites  You have Git 2.8 or greater installed on your machine. You have a GitHub account. The local network is smooth.  Create a Hugo site Step 1: Install Hugo brew install hugo # or port install hugo To verify your new install:
-hugo version Step 2: Create a New Site hugo new site yourname The above will create a new Hugo site in a folder named &lsquo;yourname&rsquo;.
-Step 3: Add a Theme See themes."/>
+<meta name="twitter:title" content="How to Build HUGO Website?"/>
+<meta name="twitter:description" content="Hugo is a general-purpose website framework. Technically speaking, Hugo is a static site generator. Unlike systems that dynamically build a page with each visitor request, Hugo builds pages when you create or update your content. Deploy Hugo as a GitHub Pages project or personal/organizational site and automate the whole process with a simple shell script. GitHub provides free and fast static hosting over SSL for personal, organization, or project pages directly from a GitHub repository via its GitHub Pages service."/>
 
 	
   </head>
@@ -66,7 +58,7 @@ Step 3: Add a Theme See themes."/>
   
 
   <header>
-    <div class="bg-green">
+    <div class="bg-dark-blue">
       <nav class="pv3 ph3 ph4-ns" role="navigation">
   <div class="flex-l justify-between items-center center">
     <a href="/xmddzhang.github.io/" class="f3 fw2 hover-white no-underline white-90 dib">
@@ -86,16 +78,6 @@ Step 3: Add a Theme See themes."/>
 
 
 
-
-<a href="https://github.com/yangzi7298/xmddzhang.github.io.git" target="_blank" class="link-transition github link dib z-999 pt3 pt0-l mr1" title="Github link" rel="noopener" aria-label="follow on Github——Opens in a new window">
-  <svg  height="32px"  style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
-  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
-</svg>
-
-<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
-<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
-</svg>
-</span></a>
 
 
 
@@ -137,13 +119,13 @@ Step 3: Add a Theme See themes."/>
 
     
     
-    <a href="https://twitter.com/share?url=https://yangzi7298.github.io/xmddzhang.github.io/blog/howtobuildhugowebsite/&amp;text=How%20to%20build%20HUGO%20website" class="twitter no-underline" aria-label="share on Twitter">
+    <a href="https://twitter.com/share?url=https://yangzi7298.github.io/xmddzhang.github.io/blog/howtobuildhugowebsite/&amp;text=How%20to%20Build%20HUGO%20Website?" class="twitter no-underline" aria-label="share on Twitter">
       <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
 
     </a>
 
     
-    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://yangzi7298.github.io/xmddzhang.github.io/blog/howtobuildhugowebsite/&amp;title=How%20to%20build%20HUGO%20website" class="linkedin no-underline" aria-label="share on LinkedIn">
+    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://yangzi7298.github.io/xmddzhang.github.io/blog/howtobuildhugowebsite/&amp;title=How%20to%20Build%20HUGO%20Website?" class="linkedin no-underline" aria-label="share on LinkedIn">
       <svg  height="32px"  style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
 </svg>
@@ -152,32 +134,58 @@ Step 3: Add a Theme See themes."/>
   </div>
 
 
-      <h1 class="f1 athelas mt3 mb1">How to build HUGO website</h1>
+      <h1 class="f1 athelas mt3 mb1">How to Build HUGO Website?</h1>
       
       
-      <time class="f6 mv4 dib tracked" datetime="2021-02-05T23:40:14+08:00">February 5, 2021</time>
+      <time class="f6 mv4 dib tracked" datetime="2021-02-06T13:40:14+08:00">February 6, 2021</time>
 
       
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><h1 id="prerequisites">Prerequisites</h1>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><ul>
+<li>Hugo is a general-purpose website framework. Technically speaking, Hugo is a static site generator. Unlike systems that dynamically build a page with each visitor request, Hugo builds pages when you create or update your content.</li>
+<li>Deploy Hugo as a GitHub Pages project or personal/organizational site and automate the whole process with a simple shell script.</li>
+<li>GitHub provides free and fast static hosting over SSL for personal, organization, or project pages directly from a GitHub repository via its GitHub Pages service.</li>
+</ul>
+<h1 id="prerequisites">Prerequisites</h1>
 <ul>
-<li>You have Git 2.8 or greater installed on your machine.</li>
+<li>You have Git installed on your machine.</li>
 <li>You have a GitHub account.</li>
 <li>The local network is smooth.</li>
 </ul>
 <h1 id="create-a-hugo-site">Create a Hugo site</h1>
 <h2 id="step-1-install-hugo">Step 1: Install Hugo</h2>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">brew install hugo
-<span style="color:#75715e"># or</span>
-port install hugo
-</code></pre></div><p>To verify your new install:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">hugo version
-</code></pre></div><h2 id="step-2-create-a-new-site">Step 2: Create a New Site</h2>
+<h3 id="set-up-your-directories">Set up Your Directories</h3>
+<p>You&rsquo;ll need a place to store the Hugo executable, your [content][], and the generated Hugo website:</p>
+<ol>
+<li>Open Windows Explorer.</li>
+<li>Create a new folder: <code>C:\Hugo</code>, assuming you want Hugo on your C drive, although this can go anywhere</li>
+<li>Create a subfolder in the Hugo folder: <code>C:\Hugo\bin</code></li>
+<li>Create another subfolder in Hugo: <code>C:\Hugo\Sites</code></li>
+</ol>
+<h3 id="set-up-your-directories-1">Set up Your Directories</h3>
+<ol>
+<li>Download the latest zipped Hugo executable from &lsquo;Hugo Releases&rsquo;.</li>
+<li>Extract all contents to your <code>..\Hugo\bin</code> folder.</li>
+<li>In PowerShell or your preferred CLI, add the <code>hugo.exe</code> executable to your PATH by navigating to <code>C:\Hugo\bin</code> (or the location of your hugo.exe file) and use the command <code>set PATH=%PATH%;C:\Hugo\bin</code>. If the <code>hugo</code> command does not work after a reboot, you may have to run the command prompt as administrator.</li>
+</ol>
+<h4 id="for-windows-10-users">For Windows 10 Users:</h4>
+<ul>
+<li>Right click on the <strong>Start</strong> button.</li>
+<li>Click on <strong>System</strong>.</li>
+<li>Click on <strong>Advanced System Settings</strong> on the left.</li>
+<li>Click on the <strong>Environment Variables&hellip;</strong> button on the bottom.</li>
+<li>In the User variables section, find the row that starts with PATH (PATH will be all caps).</li>
+<li>Double-click on <strong>PATH</strong>.</li>
+<li>Click the <strong>New&hellip;</strong> button.</li>
+<li>Type in the folder where <code>hugo.exe</code> was extracted, which is <code>C:\Hugo\bin</code> if you went by the instructions above. <em>The PATH entry should be the folder where Hugo lives and not the binary.</em> Press <!-- raw HTML omitted -->Enter<!-- raw HTML omitted --> when you&rsquo;re done typing.</li>
+<li>Click OK at every window to exit.</li>
+</ul>
+<h2 id="step-2-create-a-new-site">Step 2: Create a New Site</h2>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">hugo new site yourname
 </code></pre></div><p>The above will create a new Hugo site in a folder named &lsquo;yourname&rsquo;.</p>
 <h2 id="step-3-add-a-theme">Step 3: Add a Theme</h2>
-<p>See <a href="https://themes.gohugo.io/">themes.gohugo.io</a> for a list of themes to consider. This quickstart uses the &lsquo;ananke&rsquo;.</p>
+<p>See &lsquo;themes site1&amp;2&rsquo; for a list of themes to consider. This quickstart uses the &lsquo;ananke&rsquo;.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cd yourname
 git init
 git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke
@@ -193,9 +201,9 @@ date: 2021-02-07T10:47:11+01:00
 draft: true
 ---
 
-</code></pre></div><p>Drafts do not get deployed; once you finish a post, update the header of the post to say <code>draft: false</code>. More info <a href="/getting-started/usage/#draft-future-and-expired-content">here</a>.</p>
+</code></pre></div><p>Drafts do not get deployed; once you finish a post, update the header of the post to say <code>draft: false</code>.</p>
 <h2 id="step-5-start-the-hugo-server">Step 5: Start the Hugo server</h2>
-<p>Now, start the Hugo server with <a href="/getting-started/usage/#draft-future-and-expired-content">drafts</a> enabled:</p>
+<p>Now, start the Hugo server with drafts enabled:</p>
 <pre><code>▶ hugo server -D
 
                    | EN
@@ -229,7 +237,7 @@ title = &quot;My New Hugo Site&quot;
 theme = &quot;ananke&quot;
 </code></pre><p>Replace the <code>title</code> above with something more personal. Also, if you already have a domain ready, set the <code>baseURL</code>. Note that this value is not needed when running the local development server.</p>
 <p><strong>Tip:</strong> Make the changes to the site configuration or any other file in your site while the Hugo server is running, and you will see the changes in the browser right away, though you may need to <a href="https://kb.iu.edu/d/ahic">clear your cache</a>.</p>
-<p>For theme specific configuration options, see the <a href="https://github.com/budparr/gohugo-theme-ananke">theme site</a>.</p>
+<p>For theme specific configuration options, see the theme site.</p>
 <p><strong>For further theme customization, see <a href="/themes/customizing/">Customize a Theme</a>.</strong></p>
 <h3 id="step-7-build-static-pages">Step 7: Build static pages</h3>
 <pre><code>hugo -D
@@ -276,6 +284,14 @@ uses the default <code>public</code> folder.</p>
 <h3 id="optional-use-a-custom-domain">(Optional) Use a Custom Domain</h3>
 <p>If you&rsquo;d like to use a custom domain for your GitHub Pages site, create a file <code>static/CNAME</code>. Your custom domain name should be the only contents inside <code>CNAME</code>. Since it&rsquo;s inside <code>static</code>, the published site will contain the CNAME file at the root of the published site, which is a requirements of GitHub Pages.</p>
 <h1 id="more-reference">More Reference</h1>
+<ul>
+<li><a href="https://github.com/budparr/gohugo-theme-ananke">themes site1</a></li>
+<li><a href="https://themes.gohugo.io/">themes site2</a></li>
+<li><a href="https://gohugo.io/about/">HUGO OverView</a></li>
+<li><a href="https://gohugo.io/commands/">HUGO CLI</a></li>
+<li><a href="https://docs.github.com/en/github">GitHub OverView</a></li>
+<li><a href="https://github.com/gohugoio/hugo/releases">Hugo Releases</a></li>
+</ul>
 <ul class="pa0">
   
 </ul>
@@ -295,7 +311,7 @@ uses the default <code>public</code> folder.</p>
   </article>
 
     </main>
-    <footer class="bg-green bottom-0 w-100 pa3" role="contentinfo">
+    <footer class="bg-dark-blue bottom-0 w-100 pa3" role="contentinfo">
   <div class="flex justify-between">
   <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://yangzi7298.github.io/xmddzhang.github.io/" >
     &copy;  Xmdd's Blog 2021 
@@ -308,16 +324,6 @@ uses the default <code>public</code> folder.</p>
 
 
 
-
-<a href="https://github.com/yangzi7298/xmddzhang.github.io.git" target="_blank" class="link-transition github link dib z-999 pt3 pt0-l mr1" title="Github link" rel="noopener" aria-label="follow on Github——Opens in a new window">
-  <svg  height="32px"  style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
-  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
-</svg>
-
-<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
-<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
-</svg>
-</span></a>
 
 
 
