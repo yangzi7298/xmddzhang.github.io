@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blogs on HUGO Tips</title>
+    <title>Blogs on Xmdd&#39;s Blog</title>
     <link>https://yangzi7298.github.io/xmddzhang.github.io/blog/</link>
-    <description>Recent content in Blogs on HUGO Tips</description>
+    <description>Recent content in Blogs on Xmdd&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 05 Feb 2021 23:40:14 +0800</lastBuildDate>
@@ -17,7 +17,9 @@
       <pubDate>Fri, 05 Feb 2021 23:40:14 +0800</pubDate>
       
       <guid>https://yangzi7298.github.io/xmddzhang.github.io/blog/howtobuildhugowebsite/</guid>
-      <description></description>
+      <description>Prerequisites  You have Git 2.8 or greater installed on your machine. You have a GitHub account. The local network is smooth.  Create a Hugo site Step 1: Install Hugo brew install hugo # or port install hugo To verify your new install:
+hugo version Step 2: Create a New Site hugo new site yourname The above will create a new Hugo site in a folder named &amp;lsquo;yourname&amp;rsquo;.
+Step 3: Add a Theme See themes.</description>
     </item>
     
   </channel>
